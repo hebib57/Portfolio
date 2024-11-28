@@ -292,7 +292,8 @@ section {
     text-decoration: none;
   }
   .show-nav .burger .bar {
-    width: 0;
+    width: 22px;
+    background: transparent;
   }
   .burger .bar::before,
   .burger .bar::after {
@@ -471,7 +472,7 @@ section {
   overflow: hidden;
 }
 
-.bar {
+.progressbar .bar {
   background-color: #2774e7;
   padding: 1rem;
   border-radius: 15px;
