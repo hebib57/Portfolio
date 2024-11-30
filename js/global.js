@@ -180,7 +180,7 @@ function tabsFilters() {
   tabs.forEach((elem) => {
     elem.addEventListener("click", (event) => {
       event.preventDefault();
-      let filter = elem.agetAttribute("data-filter");
+      let filter = elem.getAttribute("data-filter");
       showProjets(filter);
       resetActiveLinks();
       elem.classList.add("active");
