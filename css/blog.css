@@ -26,13 +26,20 @@ body {
 .slogan {
   font-family: "Allura", cursive;
   text-align: center;
-  font-size: 5rem;
+  font-size: 5vw;
   font-style: italic;
   padding: auto;
 
   color: #ffffff;
-  margin: auto;
+  margin: 0;
 }
+
+@media screen and (max-width: 749px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
 .video {
   position: fixed;
   z-index: -1;
@@ -369,6 +376,7 @@ section {
   .title {
     max-width: 100%;
     margin: auto;
+    font-size: 3.5rem;
   }
 }
 
