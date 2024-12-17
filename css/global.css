@@ -42,7 +42,8 @@ h6 {
 }
 
 .container-fluid h1 {
-  font-family: "Allura", cursive;
+  font-family: "", cursive;
+  font-style: italic;
   font-size: 7rem;
   text-align: center;
   color: #ffffff;
@@ -319,7 +320,7 @@ section {
 .hero {
   /* background-image: url("../img/dedipay_right.jpg"); */
   /* background-size: cover; */
-  font-family: "Allura", cursive;
+  font-family: "", cursive;
   padding: 1rem 0 0 0;
   font-size: 3rem;
   /* font-style: inherit; */
