@@ -347,7 +347,7 @@ section {
   }
 
   .hero__avatar img {
-    max-width: 500px;
+    max-width: 100%;
     border-radius: 0%;
     width: auto;
   }
@@ -378,6 +378,12 @@ section {
     max-width: 100%;
     margin: auto;
     font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .grid__item {
+    margin: auto;
   }
 }
 
@@ -460,12 +466,4 @@ footer .socials a:hover {
   to {
     transform: translateX(0);
   }
-}
-
-.text-background {
-  background: rgba(0, 0, 0, 0.7); /* Fond semi-transparent derrière le texte */
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 8px;
-  color: white;
 }

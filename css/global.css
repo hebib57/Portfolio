@@ -22,17 +22,6 @@ body {
   background: var(--background-body);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Poppins", sans-serif;
-  color: #000;
-  /* line-height: 1; */
-}
-
 .container-fluid h2 {
   font-family: "Allura", cursive;
   font-size: 7rem;
@@ -47,6 +36,7 @@ h6 {
   color: #ffffff;
   text-align: center;
   font-size: 7rem;
+
   /* font-family: "allura", cursive; */
 }
 
@@ -253,6 +243,12 @@ section {
 
 .burger .bar::after {
   transform: translateY(8px);
+}
+
+@media screen and (max-width: 749px) {
+  .container h1 {
+    font-size: 4rem;
+  }
 }
 
 @media screen and (max-width: 749px) {
