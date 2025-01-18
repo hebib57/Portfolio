@@ -48,6 +48,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
+  filter: brightness(20%);
 }
 
 h2,
@@ -459,4 +460,12 @@ footer .socials a:hover {
   to {
     transform: translateX(0);
   }
+}
+
+.text-background {
+  background: rgba(0, 0, 0, 0.7); /* Fond semi-transparent derrière le texte */
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
 }

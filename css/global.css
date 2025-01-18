@@ -41,13 +41,13 @@ h6 {
   padding-bottom: 0;
 }
 
-.container-fluid h1 {
+.container h1 {
   margin: 0;
   font-style: italic;
   color: #ffffff;
   text-align: center;
   font-size: 7rem;
-  font-family: "allura", cursive;
+  /* font-family: "allura", cursive; */
 }
 
 /* h1,
@@ -317,17 +317,13 @@ section {
 }
 
 .hero {
-  /* background-image: url("../img/dedipay_right.jpg"); */
-  /* background-size: cover; */
-  font-family: "", cursive;
   padding: 1rem 0 0 0;
   font-size: 3rem;
-  /* font-style: inherit; */
 }
 
 .hero .title {
   font-style: italic;
-  font-family: "Allura", cursive;
+  /* font-family: "Allura", cursive; */
   /* font-size: 7rem; */
   /* margin: 1.6rem 0 0 0; */
   font-weight: 700;
@@ -649,8 +645,6 @@ section {
     width: 55%;
   }
 }
-/* .portfolio {
-  /* background: url("../img/Sans\ titre.jpg") center / cover; */
 
 .portfolio .grid__item {
   max-width: 50%;
@@ -694,10 +688,6 @@ section {
     max-width: 33.3333%;
   }
 }
-
-/* .contact {
-  background: url("../img/istockphoto-1758004093-612x612.webp") center / cover;
-} */
 
 .card {
   background: #fff;
@@ -775,6 +765,13 @@ section {
 /*footer*/
 
 footer {
+  position: relative;
+
+  background-color: #333;
+  color: white;
+
+  padding: 20px;
+
   background: #e7e7ee;
   color: #022597;
   text-align: center;
@@ -812,7 +809,6 @@ footer .socials a {
 
 footer .socials a:hover {
   background: #3054f7;
-  /* color: var(--color-body); */
 }
 .toto {
   color: #c9b9b9;
@@ -860,10 +856,6 @@ footer .socials a:hover {
   src: url("/font/RetroVintage-Regular.otf");
 }
 
-/* .about .container .card img {
-  width: cover;
-} */
-
 #contact p {
   font-size: 3rem;
   font-family: cursive;
@@ -906,7 +898,6 @@ ul li.grid__item:hover {
   width: 80px;
   height: 40px;
   margin-top: auto;
-  /* float: right; */
 }
 
 .about .btn:hover {
@@ -972,9 +963,12 @@ ul li.grid__item:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: brightness(25%);
 }
 
 .video-background {
+  /* opacity: 0.5; */
+  z-index: 1;
   padding: 0;
   margin: 0;
 }
