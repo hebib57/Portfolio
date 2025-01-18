@@ -381,12 +381,6 @@ section {
   }
 }
 
-@media screen and (max-width: 749px) {
-  .grid__item {
-    margin: auto;
-  }
-}
-
 @media screen and (min-width: 750px) {
   .service {
     display: flex;

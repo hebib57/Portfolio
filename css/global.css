@@ -23,7 +23,7 @@ body {
 }
 
 .container-fluid h2 {
-  font-family: "Allura", cursive;
+  /* font-family: "Allura", cursive; */
   font-size: 7rem;
   text-align: center;
   color: #ffffff;
@@ -854,12 +854,12 @@ footer .socials a:hover {
 
 #contact p {
   font-size: 3rem;
-  font-family: cursive;
+  /* font-family: cursive; */
   color: #ffffff;
 }
 
 #contact h2 {
-  font-family: cursive;
+  /* font-family: cursive; */
   color: #ffffff;
 }
 
@@ -876,16 +876,12 @@ ul li.grid__item:hover {
   color: #ffffff;
 }
 #about .section-title {
-  font-family: "Allura", cursive;
+  /* font-family: "Allura", cursive; */
   color: #ffffff;
 }
 #about .section-title + h3 {
-  font-family: "Allura", cursive;
+  /* font-family: "Allura", cursive; */
   color: #ffffff;
-}
-
-#about {
-  font-family: "Allura", cursive;
 }
 
 .about .btn {
@@ -902,7 +898,7 @@ ul li.grid__item:hover {
 }
 
 #modal-about h3 {
-  font-family: "Allura", cursive;
+  /* font-family: "Allura", cursive; */
   font-size: 3rem;
   color: #ffffff;
 }
@@ -913,7 +909,7 @@ ul li.grid__item:hover {
 }
 
 .about .grid__item {
-  font-family: "Allura", cursive;
+  /* font-family: "Allura", cursive; */
   font-size: 2rem;
 }
 #about div {
@@ -926,14 +922,14 @@ ul li.grid__item:hover {
 #about .category {
   font-size: 3rem;
   text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
   color: red;
 }
 #about {
   background: url("../img/18436-292228560_large.mp4") center / cover;
   color: #ffffff;
-  font-family: "maPolice";
+  /* font-family: "maPolice"; */
 }
 
 #about .container {
@@ -946,7 +942,7 @@ ul li.grid__item:hover {
 }
 
 .about .container-fluid h2 {
-  color: #ffffff;
+  /* color: #ffffff; */
   text-align: center;
   font-size: 5rem;
 }
