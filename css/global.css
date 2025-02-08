@@ -23,7 +23,6 @@ body {
 }
 
 .container-fluid h2 {
-  /* font-family: "Allura", cursive; */
   font-size: 7rem;
   text-align: center;
   color: #ffffff;
@@ -36,14 +35,7 @@ body {
   color: #ffffff;
   text-align: center;
   font-size: 7rem;
-
-  /* font-family: "allura", cursive; */
 }
-
-/* h1,
-.h1 {
-  font-size: 3.1rem;
-} */
 
 h2,
 .h2 {
@@ -58,6 +50,7 @@ h3,
 
 a {
   text-decoration: none;
+  font-size: 2rem;
 }
 
 .socials a:hover {
@@ -169,10 +162,6 @@ section {
   align-items: center;
   padding: 0 0.5rem;
 }
-
-/* .header a {
-  color: var(--color-body);
-} */
 
 .header a:hover {
   color: red;
@@ -317,16 +306,6 @@ section {
   font-size: 3rem;
 }
 
-.hero .title {
-  font-style: italic;
-  /* font-family: "Allura", cursive; */
-  /* font-size: 7rem; */
-  /* margin: 1.6rem 0 0 0; */
-  font-weight: 700;
-  color: #ffffff;
-  margin: 5rem 1 0 0;
-}
-
 .hero__item {
   display: flex;
   flex-direction: column;
@@ -337,7 +316,6 @@ section {
 }
 
 .hero__item.left {
-  /* color: #ffffff; */
   animation-duration: 1s;
   animation-name: slideInleft;
 }
@@ -445,6 +423,7 @@ section {
 }
 
 .skills .section-header p {
+  font-size: 2rem;
   color: #ffffff;
 }
 
@@ -470,7 +449,7 @@ section {
   border-radius: 15px;
   width: 0;
   height: 100%;
-  animation: progress-animation 1.5s ease-out forwards; /* Animation */
+  animation: progress-animation 1.5s ease-out forwards;
 }
 
 @keyframes progress-animation {
@@ -487,7 +466,7 @@ section {
   padding: 1rem;
   border-radius: 15px;
   height: 100%;
-  animation: progress-animation1 1.5s ease-out forwards; /* Animation */
+  animation: progress-animation1 1.5s ease-out forwards;
 }
 @keyframes progress-animation1 {
   from {
@@ -504,7 +483,7 @@ section {
   border-radius: 15px;
   width: 0;
   height: 100%;
-  animation: progress-animation2 1.5s ease-out forwards; /* Animation */
+  animation: progress-animation2 1.5s ease-out forwards;
 }
 
 @keyframes progress-animation2 {
@@ -522,7 +501,7 @@ section {
   border-radius: 15px;
   width: 0;
   height: 100%;
-  animation: progress-animation3 1.5s ease-out forwards; /* Animation */
+  animation: progress-animation3 1.5s ease-out forwards;
 }
 
 @keyframes progress-animation3 {
@@ -540,7 +519,7 @@ section {
   border-radius: 15px;
   width: 0;
   height: 100%;
-  animation: progress-animation4 1.5s ease-out forwards; /* Animation */
+  animation: progress-animation4 1.5s ease-out forwards;
 }
 
 @keyframes progress-animation4 {
@@ -558,7 +537,7 @@ section {
   border-radius: 15px;
   width: 0;
   height: 100%;
-  animation: progress-animation5 1.5s ease-out forwards; /* Animation */
+  animation: progress-animation5 1.5s ease-out forwards;
 }
 
 @keyframes progress-animation5 {
@@ -576,7 +555,7 @@ section {
   border-radius: 15px;
   width: 0;
   height: 100%;
-  animation: progress-animation6 1.5s ease-out forwards; /* Animation */
+  animation: progress-animation6 1.5s ease-out forwards;
 }
 
 @keyframes progress-animation6 {
@@ -594,7 +573,7 @@ section {
   border-radius: 15px;
   width: 0;
   height: 100%;
-  animation: progress-animation7 1.5s ease-out forwards; /* Animation */
+  animation: progress-animation7 1.5s ease-out forwards;
 }
 
 @keyframes progress-animation7 {
@@ -612,7 +591,7 @@ section {
   border-radius: 15px;
   width: 0;
   height: 100%;
-  animation: progress-animation8 1.5s ease-out forwards; /* Animation */
+  animation: progress-animation8 1.5s ease-out forwards;
 }
 
 @keyframes progress-animation8 {
@@ -630,7 +609,7 @@ section {
   border-radius: 15px;
   width: 0;
   height: 100%;
-  animation: progress-animation9 1.5s ease-out forwards; /* Animation */
+  animation: progress-animation9 1.5s ease-out forwards;
 }
 
 @keyframes progress-animation9 {
@@ -854,12 +833,11 @@ footer .socials a:hover {
 
 #contact p {
   font-size: 3rem;
-  /* font-family: cursive; */
+
   color: #ffffff;
 }
 
 #contact h2 {
-  /* font-family: cursive; */
   color: #ffffff;
 }
 
@@ -868,6 +846,7 @@ ul li.grid__item:hover {
 }
 
 #portfolio .section-header {
+  font-size: 3rem;
   color: #ffffff;
 }
 
@@ -876,11 +855,9 @@ ul li.grid__item:hover {
   color: #ffffff;
 }
 #about .section-title {
-  /* font-family: "Allura", cursive; */
   color: #ffffff;
 }
 #about .section-title + h3 {
-  /* font-family: "Allura", cursive; */
   color: #ffffff;
 }
 
@@ -898,7 +875,6 @@ ul li.grid__item:hover {
 }
 
 #modal-about h3 {
-  /* font-family: "Allura", cursive; */
   font-size: 3rem;
   color: #ffffff;
 }
@@ -909,7 +885,6 @@ ul li.grid__item:hover {
 }
 
 .about .grid__item {
-  /* font-family: "Allura", cursive; */
   font-size: 2rem;
 }
 #about div {
@@ -922,14 +897,12 @@ ul li.grid__item:hover {
 #about .category {
   font-size: 3rem;
   text-align: center;
-  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+
   color: red;
 }
 #about {
   background: url("../img/18436-292228560_large.mp4") center / cover;
   color: #ffffff;
-  /* font-family: "maPolice"; */
 }
 
 #about .container {
@@ -942,27 +915,30 @@ ul li.grid__item:hover {
 }
 
 .about .container-fluid h2 {
-  /* color: #ffffff; */
   text-align: center;
   font-size: 5rem;
 }
 
 .video {
   position: fixed;
-  z-index: -1;
+  z-index: -2;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(25%);
 }
 
 .video-background {
-  /* opacity: 0.5; */
-  z-index: 1;
   padding: 0;
   margin: 0;
+}
+.video-overlay {
+  z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 19, 86, 0.5);
 }
 
 @media screen and (max-width: 749px) {
